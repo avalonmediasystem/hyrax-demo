@@ -9,5 +9,6 @@ class Book < ActiveFedora::Base
   property :restrictions, predicate: ::RDF::Vocab::DC.accessRights, multiple: false do |index|
     index.as :stored_searchable
   end
+  self.indexer = BookIndexer
   self.human_readable_type = 'Book'
 end

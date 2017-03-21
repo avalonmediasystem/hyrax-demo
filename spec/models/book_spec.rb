@@ -8,4 +8,10 @@ RSpec.describe Book do
       expect(subject).to respond_to(:restrictions)
     end
   end
+
+  describe 'indexer' do
+    it 'uses the custom indexer' do
+      expect(subject.indexer).to eq BookIndexer
+    end
+  end
 end
