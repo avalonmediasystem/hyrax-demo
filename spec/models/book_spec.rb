@@ -3,7 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe Book do
-  it "has tests" do
-    skip "Add your tests here"
+  describe "metadata" do
+    it "has restrictions" do
+      expect(subject).to respond_to(:restrictions)
+    end
   end
 end
