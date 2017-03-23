@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is an example hyrax application showing basic customizations as described in [https://github.com/projecthydra-labs/hydra-vagrant/wiki/Dive-Into-Curation-Concerns] and [http://projecthydra.github.io/training/touring_design_patterns/].
