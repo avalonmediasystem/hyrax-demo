@@ -7,15 +7,17 @@ describe BookIndexer do
 
   context 'with Carla Hayden' do
     let(:book) { Book.new(creator: ['Carla Hayden']) }
-    it 'adds the special_message_ssm field' do
+    it 'adds the special message solr fields' do
       expect(solr_document['special_message_ssm']).to include "She's the Librarian of Congress"
+      expect(solr_document['special_message_sim']).to include "She's the Librarian of Congress"
     end
   end
 
   context 'without Carla Hayden' do
     let(:book) { Book.new(creator: ['John Doe']) }
-    it 'does not add the special_message_ssm field' do
+    it 'does not add the special message solr fields' do
       expect(solr_document['special_message_ssm']).to be_nil
+      expect(solr_document['special_message_sim']).to be_nil
     end
   end
 end
