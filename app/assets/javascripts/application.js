@@ -18,6 +18,8 @@
 // Required by Blacklight
 //= require blacklight/blacklight
 
-//= require_tree .
-//= require hyrax
 
+//= require hyrax
+//= require almond
+
+//= require example
