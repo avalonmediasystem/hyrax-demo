@@ -55,6 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'hyrax', '1.0.0.alpha', github: 'projecthydra-labs/hyrax'
 group :development, :test do
   gem 'solr_wrapper', '>= 0.3'
+  gem 'jasmine', '~> 2.3'
 end
 
 gem 'rsolr', '~> 1.0'
