@@ -22,4 +22,8 @@
 //= require hyrax
 //= require almond
 
+//= require avalon/app
+//= require avalon/initialize
+//= require avalon/media_player
+
 //= require example
