@@ -38,5 +38,12 @@ export default class MediaPlayer {
   <track kind="subtitles" src="${this.getSubtitles().id}" srclang="${this.getSubtitles().language}" >
 </video>`
     this.target.innerHTML = videoElement
+    $('video').mediaelementplayer({
+        // Configuration
+      success: (media) => {
+        var isNative = media.rendererName.match(/html5|native/)
+        var isYoutube = media.rendererName.match(/youtube/)
+      }
+    })
   }
 }

@@ -27,3 +27,5 @@
 //= require avalon/media_player
 
 //= require example
+
+//= require mediaelement_rails

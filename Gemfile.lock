@@ -1,4 +1,41 @@
 GIT
+  remote: https://github.com/avalonmediasystem/mediaelement-hd-toggle.git
+  revision: 102ad74ef5baef7b15983a9a49586da461fe1d32
+  tag: avalon-r4
+  specs:
+    mediaelement-hd-toggle (0.0.1)
+
+GIT
+  remote: https://github.com/avalonmediasystem/mediaelement-qualityselector.git
+  revision: f0b1a10883a6e57faedff45112c1fb4243e99ad2
+  tag: avalon-r4
+  specs:
+    mediaelement-qualityselector (0.0.1)
+
+GIT
+  remote: https://github.com/avalonmediasystem/mediaelement-skin-avalon.git
+  revision: a564874595672d5f751a83ae43685728c247f49e
+  tag: avalon-r5
+  specs:
+    mediaelement-skin-avalon (0.0.1)
+
+GIT
+  remote: https://github.com/avalonmediasystem/mediaelement-title.git
+  revision: a2e67d24217f06a0a7d46c0175cc64fc178cf1fc
+  tag: avalon-r4
+  specs:
+    mediaelement-title (0.0.1)
+
+GIT
+  remote: https://github.com/avalonmediasystem/mediaelement_rails.git
+  revision: 6a9911e34a02c4fd8989d723b105b13168bb2611
+  tag: avalon-r6
+  specs:
+    mediaelement_rails (0.5.1)
+      jquery-rails (>= 1.0)
+      railties (>= 3.1)
+
+GIT
   remote: https://github.com/projecthydra-labs/hyrax.git
   revision: 21964e1de237c560136b0136738612b258587552
   specs:
@@ -403,6 +440,8 @@ GEM
     mailboxer (0.14.0)
       carrierwave (>= 0.5.8)
       rails (>= 4.2.0)
+    media-element-logo-plugin (0.0.2)
+      rails (>= 3.2.3)
     memoist (0.15.0)
     method_source (0.8.2)
     mime-types (3.1)
@@ -650,6 +689,12 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  media-element-logo-plugin
+  mediaelement-hd-toggle!
+  mediaelement-qualityselector!
+  mediaelement-skin-avalon!
+  mediaelement-title!
+  mediaelement_rails!
   puma (~> 3.0)
   rails (~> 5.0.2)
   rsolr (~> 1.0)
