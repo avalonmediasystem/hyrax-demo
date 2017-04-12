@@ -1,11 +1,11 @@
 Avalon = {
-    initialize: function () {
-      let create_video = require('avalon/create_video');
-      create_video();
-    },
+  initialize: function () {
+    let createVideo = require('avalon/create_video')
+    createVideo()
+  },
 
-    mediaPlayer: function(options) {
-      var MediaPlayer = require('avalon/media_player');
-      return new MediaPlayer(options);
-    }
+  mediaPlayer: function (options) {
+    var MediaPlayer = require('avalon/media_player')
+    return new MediaPlayer(options)
+  }
 }
