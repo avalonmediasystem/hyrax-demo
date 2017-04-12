@@ -22,8 +22,12 @@
 //= require hyrax
 //= require almond
 
+//= require mediaelement-and-player
+
 //= require avalon/app
 //= require avalon/initialize
 //= require avalon/media_player
+//= require avalon/create_video
+//= require avalon/manifest
 
 //= require example
